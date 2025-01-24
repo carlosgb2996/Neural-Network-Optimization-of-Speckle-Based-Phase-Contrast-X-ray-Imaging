@@ -1,0 +1,36 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pip in /hpcfs/home/fisica/s.naranjob/.local/lib/python3.9/site-packages (24.2)
+Collecting pip
+  Downloading pip-24.3.1-py3-none-any.whl.metadata (3.7 kB)
+Downloading pip-24.3.1-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 8.0 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.2
+    Uninstalling pip-24.2:
+      Successfully uninstalled pip-24.2
+Successfully installed pip-24.3.1
+Host: nodei-gpu-2
+Started at: Sun Nov 10 13:03:33 -05 2024
+=== GPU Information ===
+GPU ID: 0, Name: Quadro RTX 6000, Temperature: 26.0 C, Memory Usage: 0.0/23040.0 MB, Load: 0.0%
+
+
+Results saved to /hpcfs/home/fisica/s.naranjob/StrainNet/StrainNet/output_metrics//metrics_results.csv
+
+=== RMSE Statistics ===
+RMSE_x: Mean = 0.048708, Standard Deviation = 0.049714
+RMSE_y: Mean = 0.048732, Standard Deviation = 0.049773
+RMSE_general: Mean = 0.048728, Standard Deviation = 0.049736
+
+=== Bias Statistics ===
+Bias_x: Mean = 0.999794, Standard Deviation = 0.046042
+Bias_y: Mean = 0.999715, Standard Deviation = 0.009669
+Bias_general: Mean = 0.999755, Standard Deviation = 0.023532
+
+=== R^2 Statistics ===
+R2_x: Mean = -0.108425, Standard Deviation = 0.205869
+R2_y: Mean = -0.095691, Standard Deviation = 0.174156
+R2_general: Mean = -0.096517, Standard Deviation = 0.168189
+Finished executing the metrics calculation script.
+

@@ -1,0 +1,26 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pip in /hpcfs/home/fisica/s.naranjob/.local/lib/python3.9/site-packages (24.3.1)
+Host: nodei-gpu-1
+Started at: Mon Nov 11 10:00:09 -05 2024
+=== GPU Information ===
+GPU ID: 0, Name: Quadro RTX 6000, Temperature: 23.0 C, Memory Usage: 0.0/23040.0 MB, Load: 0.0%
+
+
+Results saved to /hpcfs/home/fisica/s.naranjob/StrainNet/StrainNet/output_metrics//metrics_results.csv
+
+=== RMSE Statistics ===
+RMSE_x: Mean = 0.051044, Standard Deviation = 0.050510
+RMSE_y: Mean = 0.051015, Standard Deviation = 0.050504
+RMSE_general: Mean = 0.051037, Standard Deviation = 0.050499
+
+=== Bias Statistics ===
+Bias_x: Mean = 1.010054, Standard Deviation = 0.161602
+Bias_y: Mean = 0.997881, Standard Deviation = 0.113364
+Bias_general: Mean = 1.003967, Standard Deviation = 0.099100
+
+=== R^2 Statistics ===
+R2_x: Mean = -0.138336, Standard Deviation = 0.445787
+R2_y: Mean = -0.144542, Standard Deviation = 0.344463
+R2_general: Mean = -0.131725, Standard Deviation = 0.320395
+Finished executing the metrics calculation script.
+
